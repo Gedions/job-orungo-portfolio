@@ -47,6 +47,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/lightthemes.png",
+    shortcut: "/lightthemes.png",
+    apple: "/lightthemes.png",
+  },
 };
 
 import Navbar from "@/components/Navbar";
