@@ -9,10 +9,9 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 const socialLinks = [
-  { icon: <Share2 size={18} />, href: 'https://linkedin.com', label: 'LinkedIn', color: 'hover:text-blue-500' },
-  { icon: <Camera size={18} />, href: 'https://instagram.com', label: 'Instagram', color: 'hover:text-pink-500' },
-  { icon: <MessageCircle size={18} />, href: 'https://facebook.com', label: 'Facebook', color: 'hover:text-blue-600' },
-  { icon: <Globe size={18} />, href: 'https://github.com', label: 'GitHub', color: 'hover:text-white' },
+  { icon: <Share2 size={18} />, href: 'https://www.linkedin.com/in/job-gedions-3035b21bb/', label: 'LinkedIn', color: 'hover:text-blue-500' },
+  { icon: <Globe size={18} />, href: 'https://github.com/Gedions', label: 'GitHub', color: 'hover:text-white' },
+  { icon: <MessageCircle size={18} />, href: 'https://wa.me/254796893435', label: 'WhatsApp', color: 'hover:text-emerald-500' },
 ];
 
 const navItems = [

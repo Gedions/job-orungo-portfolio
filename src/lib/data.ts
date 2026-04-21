@@ -26,62 +26,62 @@ export interface BlogPost {
 export const projects: Project[] = [
   {
     id: "01",
-    title: "Enterprise ERP Solution",
-    desc: "A robust resource planning system built with Yii2 and MSSQL, featuring complex reporting and API integrations.",
-    longDesc: "This enterprise-grade ERP was designed to handle complex business logic for large-scale operations. It integrates multiple departments including Finance, HR, and Inventory Management into a unified platform. The system emphasizes data integrity and high-performance reporting through optimized SQL queries and sophisticated caching strategies.",
-    tech: ["PHP", "Yii2", "MSSQL", "Docker", "Redis"],
-    category: "Full Stack",
+    title: "Regulatory Management Information System (RIMS)",
+    desc: "A mission-critical enterprise system for regulatory bodies, built with Yii2 and MSSQL, handling complex workflows and compliance tracking.",
+    longDesc: "RIMS is a comprehensive regulatory platform designed to streamline permit applications, inspections, and compliance management. It features a sophisticated workflow engine, automated notifications, and deep integration with enterprise ERPs. The system manages the entire lifecycle of regulatory processes with high security and data integrity.",
+    tech: ["PHP", "Yii2", "MSSQL", "Bootstrap", "ERP Integration"],
+    category: "Enterprise",
     github: "#",
     link: "#",
     challenges: [
-      "Handling real-time synchronization between disparate legacy databases.",
-      "Optimizing SQL Server performance for tables with millions of records.",
-      "Implementing a granular RBAC (Role-Based Access Control) system."
+      "Architecting a flexible workflow engine for diverse regulatory processes.",
+      "Optimizing complex database transactions for high-volume data entry.",
+      "Implementing secure digital signatures and document management."
     ],
     results: [
-      "Reduced report generation time by 75% through query optimization.",
-      "Centralized 15+ business processes into a single source of truth.",
-      "Successfully scaled to support 500+ concurrent internal users."
+      "Digitized 100% of the manual permit application process.",
+      "Reduced application processing time by over 60% through automation.",
+      "Enhanced transparency and tracking for all regulatory stakeholders."
     ]
   },
   {
     id: "02",
-    title: "Real-time Analytics Engine",
-    desc: "High-performance data processor utilizing FastAPI and PostgreSQL with AWS Lambda deployment.",
-    longDesc: "An asynchronous data processing engine designed to ingest and analyze massive streams of telemetry data. Built with Python's FastAPI, it leverages high-concurrency capabilities to process incoming webhooks and sensor data in near real-time, storing aggregated results in a highly available PostgreSQL cluster.",
-    tech: ["Python", "FastAPI", "PostgreSQL", "AWS", "Celery"],
-    category: "DevOps",
+    title: "Sinapi Africa",
+    desc: "A premium web platform for a mission-driven organization, built with Next.js and Tailwind CSS for high performance and UX.",
+    longDesc: "Sinapi Africa is a modern web application designed to showcase organizational impact and drive engagement. It features a custom-built content management flow, responsive design, and performance optimizations that ensure a seamless user experience across all devices.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
+    category: "Web App",
     github: "#",
-    link: "#",
+    link: "https://sinapi-revamp.vercel.app/",
     challenges: [
-      "Managing high-velocity data ingestion without bottlenecking the API.",
-      "Implementing efficient data aggregation pipelines for historical analysis.",
-      "Ensuring sub-100ms response times for real-time dashboard queries."
+      "Designing a high-UX interface that aligns with brand identity.",
+      "Implementing performant animations without compromising load times.",
+      "Optimizing SEO and content structure for maximum visibility."
     ],
     results: [
-      "Achieved ingestion rates of 10k+ events per second on a single node.",
-      "Implemented a serverless architecture that reduced infrastructure costs by 40%.",
-      "Provided 99.99% availability during peak traffic bursts."
+      "Achieved 95+ Lighthouse scores across performance and accessibility.",
+      "Successfully launched a modern digital presence for the organization.",
+      "Improved user engagement through interactive and dynamic content."
     ]
   },
   {
     id: "03",
-    title: "FinTech Banking Portal",
-    desc: "Secure banking dashboard developed using ASP.NET Core and Blazor for a rich client-side experience.",
-    longDesc: "A secure, modern banking interface that brings desktop-like performance to the web via Blazor WebAssembly. This portal handles sensitive financial transactions with multi-layered security, including JWT authentication and encrypted communication channels, while providing a highly interactive user experience for portfolio management.",
-    tech: ["C#", "ASP.NET Core", "Blazor", "MSSQL", "Entity Framework"],
-    category: "Finance",
+    title: "High-Performance API Engine",
+    desc: "Scalable data processing system utilizing FastAPI and PostgreSQL for real-time analytics.",
+    longDesc: "This backend engine handles massive data ingestion and processing for analytical dashboards. Built with a focus on speed and scalability, it utilizes asynchronous processing and optimized database schemas to provide sub-second responses for complex data queries.",
+    tech: ["Python", "FastAPI", "PostgreSQL", "Docker", "Redis"],
+    category: "Backend",
     github: "#",
     link: "#",
     challenges: [
-      "Ensuring strict compliance with financial security standards (PCI-DSS).",
-      "Managing complex state across a multi-step transactional workflow.",
-      "Optimizing Blazor WebAssembly payload sizes for slow network conditions."
+      "Managing high-velocity data ingestion with minimal latency.",
+      "Scaling the infrastructure to handle traffic spikes.",
+      "Ensuring high availability and data consistency."
     ],
     results: [
-      "Developed a highly responsive UI that outperformed previous legacy systems.",
-      "Implemented an end-to-end encryption layer for all transaction payloads.",
-      "Simplified complex account management tasks into intuitive user journeys."
+      "Processed over 1M+ data points daily with zero downtime.",
+      "Reduced API response latency by 40% through intelligent caching.",
+      "Provided a robust foundation for real-time business intelligence."
     ]
   }
 ];

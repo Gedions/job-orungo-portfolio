@@ -45,8 +45,8 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed"
             >
-              Expertise across <span className="text-white font-medium">PHP, Python, Java, and C#</span>. 
-              I architect high-performance ERPs, FinTech portals, and cloud-native systems that scale with your vision.
+              Expertise across <span className="text-white font-medium">PHP (Yii2, Laravel), Python (FastAPI), and C# (.NET)</span>. 
+              I architect mission-critical regulatory systems (RIMS), organizational platforms, and scalable cloud architectures.
             </motion.p>
 
             <motion.div 
@@ -66,7 +66,7 @@ export default function Hero() {
               </Link>
               
               <Link 
-                href="https://github.com"
+                href="https://github.com/Gedions"
                 target="_blank"
                 className="px-8 py-4 bg-slate-900 text-white font-bold rounded-full border border-slate-800 hover:bg-slate-800 transition-all flex items-center gap-2"
               >
@@ -91,7 +91,7 @@ export default function Hero() {
             
             <div className="relative w-full h-full rounded-[40px] overflow-hidden border-2 border-slate-800 bg-slate-900 group">
               <img 
-                src="/IMG_3108.jpg" 
+                src="/job.jpeg" 
                 alt="Job Gedions Orungo" 
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
                 onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800'; }}
