@@ -59,11 +59,11 @@ export default function Contact() {
                   Direct inquiries often lead to the best collaborations. Reach out today.
                 </p>
                 <motion.a
-                  href="mailto:hello@joborungo.dev"
+                  href="mailto:jobgedions@gmail.com"
                   whileHover={{ gap: '1.5rem' }}
                   className="flex items-center gap-4 text-white font-black text-xl border-b-2 border-white/30 pb-4 w-fit"
                 >
-                  hello@joborungo.dev <ArrowRight size={24} />
+                  jobgedions@gmail.com <ArrowRight size={24} />
                 </motion.a>
               </div>
 
