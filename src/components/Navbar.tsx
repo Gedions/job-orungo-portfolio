@@ -45,18 +45,15 @@ export default function Navbar() {
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="flex items-center gap-3 cursor-pointer"
+          className="flex items-center cursor-pointer"
         >
-          <div className="relative w-10 h-10 overflow-hidden rounded-xl border border-white/10 shadow-2xl">
+          <div className="h-12 w-auto">
             <img 
               src="/darkthemes.png" 
-              alt="Logo" 
-              className="w-full h-full object-cover"
+              alt="Job Orungo Logo" 
+              className="h-full w-auto object-contain"
             />
           </div>
-          <span className="text-xl font-bold tracking-tight text-white uppercase italic">
-            Job<span className="text-blue-500">Orungo</span>
-          </span>
         </motion.div>
 
         {/* Desktop Nav */}
